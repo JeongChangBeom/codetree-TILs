@@ -10,7 +10,7 @@ int main() {
         char sex;
         cin >> age >> sex;
 
-        if(age >= 19 && sex == M){
+        if(age >= 19 && sex == 'M'){
             check = true;
         }
     }

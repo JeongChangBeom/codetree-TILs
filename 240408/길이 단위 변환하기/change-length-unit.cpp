@@ -3,6 +3,9 @@
 using namespace std;
 
 int main() {
+    cout << fixed;
+    cout.precision(1);
+
     float ft = 30.48;
     int mi = 160934;
 

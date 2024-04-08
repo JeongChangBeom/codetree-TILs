@@ -6,6 +6,8 @@ int main() {
     int a;
     cin >> a;
 
-    cout << a==1 ? t : f;
+    char result = (a==1) ? t : f;
+
+    cout << result;
     return 0;
 }

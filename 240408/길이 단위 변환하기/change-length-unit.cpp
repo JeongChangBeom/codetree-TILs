@@ -1,5 +1,7 @@
 #include <iostream>
 
+using namespace std;
+
 int main() {
     float ft = 30.48;
     int mi = 160934;

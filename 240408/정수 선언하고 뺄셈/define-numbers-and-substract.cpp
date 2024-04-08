@@ -8,6 +8,6 @@ int main() {
     x = 97;
     y = 13;
 
-    cout << x << ' - ' << y << ' = ' << x-y;
+    cout << x << " - " << y << " = " << x-y;
     return 0;
 }

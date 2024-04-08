@@ -6,7 +6,7 @@ int main() {
     int a = 3;
     int b = 4;
 
-    int b = a;
+    b = a;
 
     cout << a << " " << b << '\n';
     cout << a*b;

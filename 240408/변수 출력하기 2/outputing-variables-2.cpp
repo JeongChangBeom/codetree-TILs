@@ -4,7 +4,7 @@ using namespace std;
 
 int main() {
     int a = 3;
-    int b = 'C';
+    char b = 'C';
 
     cout << b <<"!.....!"<< a;
 

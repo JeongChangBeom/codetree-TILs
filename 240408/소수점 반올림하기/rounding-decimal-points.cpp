@@ -4,7 +4,7 @@ using namespace std;
 
 int main() {
     cout << fixed;
-    cout.pricision(1);
+    cout.precision(1);
 
     float a = 25.352;
     cout << a;

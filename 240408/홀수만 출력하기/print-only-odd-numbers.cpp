@@ -9,7 +9,7 @@ int main() {
         int num;
         cin >> num;
 
-        if(num%2!=0){
+        if(num%2!=0 && num%3 ==0){
             cout << num << '\n';
         }
     }

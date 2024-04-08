@@ -8,10 +8,10 @@ int main() {
 
     int n;
     cin >> n;
-    if(n>book){
+    if(n>=book){
         cout << "book";
     }
-    else if(n<book && n>mask){
+    else if(n<book && n>=mask){
         cout << "mask";
     }
     else{

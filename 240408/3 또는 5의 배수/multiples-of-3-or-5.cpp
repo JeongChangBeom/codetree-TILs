@@ -7,10 +7,10 @@ int main() {
     cin >> a;
 
     if(a % 3 ==0){
-        cout << "YES";
+        cout << "YES" << '\n';
     }
     else{
-        cout << "NO";
+        cout << "NO" << '\n';
     }
 
     if(a % 5 ==0){

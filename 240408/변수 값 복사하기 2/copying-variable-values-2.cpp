@@ -10,7 +10,7 @@ int main() {
     a = c;
     b = c;
 
-    cout << a << ' ' << b << ' ' << c
+    cout << a << ' ' << b << ' ' << c;
 
     return 0;
 }

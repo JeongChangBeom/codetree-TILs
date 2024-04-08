@@ -8,7 +8,7 @@ int main() {
 
     int start = 0;
     while(start < n){
-        cout << '*' << '\n'
+        cout << '*' << '\n';
         start++;
     }
     return 0;

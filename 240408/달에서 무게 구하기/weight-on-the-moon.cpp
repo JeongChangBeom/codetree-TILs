@@ -4,7 +4,7 @@ using namespace std;
 
 int main() {
     cout << fixed;
-    cout << precision(6);
+    cout.precision(6);
 
     int weight = 13;
     float gravity = 0.165000;

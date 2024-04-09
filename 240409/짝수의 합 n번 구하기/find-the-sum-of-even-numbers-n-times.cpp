@@ -17,7 +17,7 @@ int main() {
                 sum += j;
             }
         }
-        cout << sum; << '\n';
+        cout << sum << '\n';
     }
     return 0;
 }

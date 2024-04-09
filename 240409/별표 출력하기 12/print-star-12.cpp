@@ -14,11 +14,11 @@ int main() {
         }
         else{
             for(int j=0;j<n;j++){
-                if(j%2==0 && j<i){
-                    cout << " " << " ";
+                if(j%2!=0 && j>=i){
+                    cout << "*" << " ";
                 }
                 else{
-                    cout << "*" << " ";
+                    cout << " " << " ";
                 }
             }
         }

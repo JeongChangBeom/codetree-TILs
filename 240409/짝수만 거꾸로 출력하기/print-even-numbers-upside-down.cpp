@@ -4,10 +4,6 @@
 
 using namespace std;
 
-bool compare(int x, int y){
-    return x>y;
-}
-
 int main() {
     int n;
     cin >> n;
@@ -22,10 +18,8 @@ int main() {
         }
     }
 
-    sort(v.begin(),v.end(),compare);
-
-    for(int i=0;i<v.size();i++){
-        cout << v[i] << " ";
+    for(int i=1;i<=v.size();i++){
+        cout << v[v.size()-i] << " ";
     }
 
     return 0;

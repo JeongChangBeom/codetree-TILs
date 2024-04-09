@@ -12,7 +12,7 @@ int main() {
         for(int j=1;j<=N;j++){
             if(i<=j){
                 cout << alpha << " ";
-                if(alpha == 'Z'){
+                if(alpha >= 'Z'){
                     alpha == 'A';
                 }
                 alpha++;

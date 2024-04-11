@@ -29,10 +29,12 @@ int main() {
         d_B.push_back(B[i]);
     }
 
-    int result = -1;
+    int result = 0;
+    bool chk = false;
 
-    for (int i = 0; i <= d_A.size(); i++) {
+    for (int i = 0; i < d_A.size(); i++) {
         if (compare(d_A, d_B)) {
+            chk = true;
             break;
         }
         else {
@@ -42,11 +44,11 @@ int main() {
         }
     }
 
-    if (result == -1) {
+    if (chk) {
         cout << result;
     }
     else {
-        cout << result + 1;
+        cout << "-1";
     }
 
     return 0;

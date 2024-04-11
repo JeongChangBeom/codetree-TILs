@@ -31,7 +31,7 @@ int main() {
 
     int result = -1;
 
-    for (int i = 0; i < d_A.size(); i++) {
+    for (int i = 0; i <= d_A.size(); i++) {
         if (compare(d_A, d_B)) {
             break;
         }

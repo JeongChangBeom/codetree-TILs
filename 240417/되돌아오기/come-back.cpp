@@ -33,14 +33,14 @@ int main() {
         }
 
         for(int j=0;j<dis;j++){
+            x += dx[rot_num];
+            y += dy[rot_num];
+            result++;
+
             if(x==0 && y==0 && result!=0){
                 cout << result;
                 return 0;
             }
-
-            x += dx[rot_num];
-            y += dy[rot_num];
-            result++;
         }
     }
     cout << "-1";

@@ -20,8 +20,12 @@ int main() {
         int count = 0;
 
         for(int j=0;j<4;j++){
-            if(arr[r+dx[j]][c+dy[j]] == 1){
-                count++;
+            int next_r = r+dx[j];
+            int next_c = c+dy[j];
+            if(next_r>0 && next_r<=N && next_c>0 && next_c<=N){
+                if(arr[next_r][next_c] == 1){
+                    count++;
+                } 
             }
         }
         if(count == 3){

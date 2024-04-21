@@ -2,7 +2,7 @@
 
 using namespace std;
 
-char arr[1000][1000];
+char arr[1001][1001];
 
 int dx[4] = {0,1,0,-1};
 int dy[4] = {1,0,-1,0};

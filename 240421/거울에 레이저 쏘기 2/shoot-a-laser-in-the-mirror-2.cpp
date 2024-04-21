@@ -51,11 +51,21 @@ int main() {
     while(true){
         if(arr[x][y] == '/'){
             count++;
-            rot_num = 3 - rot_num;
+            if(rot_num == 1 || rot_num == 3){
+                rot_num = (rot_num + 1) % 4;
+            }
+            else{
+                rot_num = (rot_num + 3) % 4;
+            }
         }
         else if(arr[x][y] == '\\'){
             count++;
-            rot_num = (5 - rot_num) % 4;
+            if(rot_num == 1 || rot_num == 3){
+                rot_num = (rot_num + 3) % 4;
+            }
+            else{
+                rot_num = (rot_num + 1) % 4;
+            }
         }
 
         x += dx[rot_num];

@@ -40,7 +40,7 @@ int main() {
         y = N-1 - ((K-1)%N);
         rot_num = 3;
     }
-    else if(3>N && K<=4*N){
+    else if(K>3*N && K<=4*N){
         x = N-1 - ((K-1)%N);
         y = 0;
         rot_num = 0;

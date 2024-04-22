@@ -31,7 +31,7 @@ int main() {
         x += dx[rot_num];
         y += dy[rot_num];
 
-        arr[x][y] = alpha[i-1%26];
+        arr[x][y] = alpha[i-1%25];
     }
 
     for(int i=0;i<n;i++){

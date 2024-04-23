@@ -2,7 +2,7 @@
 
 using namespace std;
 
-int dx[4] = {0,1,0,-1};
+int dx[4] = {0,-1,0,1};
 int dy[4] = {-1,0,1,0};
 
 int arr[101][101];
@@ -22,7 +22,7 @@ int main() {
         int next_x = x+dx[rot_num];
         int next_y = y+dy[rot_num];
 
-        if(!(next_x>=0 && next_x<=n && next_y>=0 && next_y<=n) || arr[next_x][next_y] != 0){
+        if(!(next_x>=0 && next_x<n && next_y>=0 && next_y<n) || arr[next_x][next_y] != 0){
             rot_num = (rot_num+1)%4;
         }
 
